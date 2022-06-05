@@ -23,12 +23,12 @@ setTimeout(()=> {
 // referenced by the file. Such as: other files, npm modules, images, or css.
 // see https://webpack.js.org/concepts/dependency-graph/
 // Have this variable resolve to the "webpack-src" folder inside of "./client"
-var SRC_DIR = path.join(__dirname, 'edit this value according to the paragraph above');
+var SRC_DIR = path.join(__dirname, '/client/webpack-src');
 
 // Update this next variable to point to the folder
 // where webpack will write the final bundled file.
 // Have this variable resolve to the "dist" folder inside of "./client"
-var DIST_DIR = path.join(__dirname, 'edit this value according to the paragraph above');
+var DIST_DIR = path.join(__dirname, '/dist');
 
 
 module.exports = {
